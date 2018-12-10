@@ -1,0 +1,361 @@
+@import 'common';
+
+.content-list {
+    padding-bottom: 60px;
+    background-color: #ededed;
+    .container {
+        position: relative;
+        top: -234px;
+        margin-bottom: -234px;
+        article {
+            a {
+                display: table;
+                color: #fff;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                figure {
+                    display: table-cell;
+                    vertical-align: middle;
+                    figcaption {
+                        margin-top: 15px;
+                        h3 {
+                            font-size: 18px;
+                            font-weight: bold;
+                            letter-spacing: -.45px;
+                            line-height: 26px;
+                            &.eng {
+                                @include msr();
+                            }
+                        }
+                        small {
+                            display: block;
+                            font-size: 15px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+        .section-header {
+            overflow: hidden;
+            width: 732px;
+            padding-left: 468px;
+            article {
+                float: left;
+                height: 234px;
+                &.lounge {
+                    width: 234px;
+                    background-color: #004483;
+                }
+                &.industry {
+                    width: 388px;
+                    height: 154px;
+                    padding: 40px;
+                    background-color: #fff;
+                }
+                .article-header {
+                    h3 {
+                        font-size: 22px;
+                        color: #3a3a3a;
+                        font-weight: bold;
+                        letter-spacing: -.45px;
+                    }
+                }
+                .article-content {
+                    position: relative;
+                    padding-top: 10px;
+                    .education-list {
+                        width: 100%;
+                        li {
+                            padding: 13px 0;
+                            border-bottom: 1px dashed #ccc;
+                            > a {
+                                display: block;
+                                overflow: hidden;
+                                font-size: 15px;
+                                color: #666;
+                                padding: 0 5px;
+                                font-weight: 300;
+                                text-align: left;
+                                letter-spacing: -.35px;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                                line-height: 30px;
+                                span {
+                                    width: 57px;
+                                    height: 30px;
+                                    display: inline-block;
+                                    font-size: 13px;
+                                    margin-right: 10px;
+                                    color: #fff;
+                                    line-height: 30px;
+                                    letter-spacing: -.45px;
+                                    text-align: center;
+                                    border-radius: 30px;
+                                    &.recruit {
+                                        background-color: #004483;
+                                    }
+                                    &.finishing {
+                                        background-color: #0e3151;
+                                    }
+                                }
+                            }
+                        }
+                        .slick-arrow {
+                            position: absolute;
+                            right: 0;
+                            outline: none;
+                            cursor: pointer;
+                            font-size: 20px;
+                            line-height: 15px !important;
+                            padding: 0;
+                            border: 0;
+                            color: #918f8f;
+                            background: none;
+                            @include transition();
+                            i {
+                                line-height: 15px !important;
+                                height: 15px !important;
+                                &:before {
+                                    margin: 0;
+                                    line-height: 15px !important;
+                                }
+                            }
+                            &:hover {
+                                color: #004483;
+                            }
+                            &.slick-prev {
+                                top: -43px;
+                            }
+                            &.slick-next {
+                                top: -26px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section-content {
+            width: 100%;
+            text-align: right;
+            overflow: hidden;
+            article {
+                float: left;
+                &:nth-of-type(1) {
+                    width: 468px;
+                }
+                &:nth-of-type(2) {
+                    width: 702px;
+                }
+                &:nth-of-type(3) {
+                    width: 234px;
+                }
+                ul {
+                    overflow: hidden;
+                    li {
+                        float: left;
+                        width: 234px;
+                        height: 234px;
+                        &:nth-of-type(2n + 1) {
+                            float: left;
+                        }
+                        &.company {
+                            > a {
+                                background-color: #0e3151;
+                            }
+                        }
+                        &.group {
+                            > a {
+                                background-image: url(/assets/images/main/bg_group.jpg);
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                background-position: 0 0;
+                                figure {
+                                    figcaption {
+                                        h3 {
+                                            color: #3a3a3a;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.content-bg {
+                            background-image: url(/assets/images/main/bg_hylinc.png);
+                            background-repeat: no-repeat;
+                            background-position: 50% 50%;
+                        }
+                        &.introduce {
+                            > a {
+                                background-image: url(/assets/images/main/bg_introduce.jpg);
+                                background-position: 0 0;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                        }
+                    }
+                }
+                &.notice {
+                    overflow: hidden;
+                    width: 468px;
+                    height: 468px;
+                    background-image: url(/assets/images/main/bg_notice.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: 0 0;
+                    .notice-area {
+                        float: right;
+                        width: 234px;
+                        height: 234px;
+                        text-align: left;
+                        background-color: rgba(14, 49, 81, .95);
+                        .notice-head {
+                            padding: 35px 40px 0;
+                            h3 {
+                                font-size: 22px;
+                                color: #fff;
+                                font-weight: bold;
+                                letter-spacing: -.45px;
+                            }
+                        }
+                        .notice-body {
+                            position: relative;
+                            padding: 25px 40px 40px;
+                            .notice-list {
+                                overflow: visible;
+                                position: relative;
+                                li {
+                                    height: 101px;
+                                    a {
+                                        text-align: left;
+                                        height: 101px;
+                                        b {
+                                            font-size: 13px;
+                                            color: #4ba9ff;
+                                            font-weight: 400;
+                                            display: block;
+                                            letter-spacing: -.25px;
+                                        }
+                                        p {
+                                            font-size: 15px;
+                                            color: #fff;
+                                            line-height: 22px;
+                                            margin-top: 5px;
+                                            letter-spacing: -.5px;
+                                        }
+                                        .date {
+                                            display: block;
+                                            margin-top: 15px;
+                                            font-size: 12px;
+                                            @include msr();
+                                            color: rgba(#fff, .7);
+                                            font-weight: 300;
+                                        }
+                                    }
+                                }
+                                .slick-arrow {
+                                    position: absolute;
+                                    top: -50px;
+                                    outline: none;
+                                    font-size: 20px;
+                                    color: #fff;
+                                    cursor: pointer;
+                                    padding: 0;
+                                    border: 0;
+                                    background: none;
+                                    @include transition();
+                                    i {
+                                        &:before {
+                                            margin: 0;
+                                        }
+                                    }
+                                    &:hover {
+                                        color: #aaa;
+                                    }
+                                    &.slick-prev {
+                                        right: 20px;
+                                    }
+                                    &.slick-next {
+                                        right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.news-data {
+                    > ul {
+                        > li {
+                            display: block;
+                            width: 234px;
+                            height: 234px;
+                            &.news-letter {
+                                > a {
+                                    background-image: url(/assets/images/main/bg_news.jpg);
+                                    background-repeat: no-repeat;
+                                    background-position: 0 0;
+                                    background-size: contain;
+                                }
+                            }
+                            &.data-room {
+                                > a {
+                                    background-color: #fff;
+                                    h3 {
+                                        color: #3a3a3a;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

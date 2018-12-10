@@ -1,0 +1,281 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&subset=korean");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900");
+/* 초기화 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  position: relative;
+  min-width: 1200px;
+  font-size: 14px;
+  color: #666;
+  font-weight: 400;
+  font-family: 'Noto Sans KR', sans-serif; }
+
+.content-list {
+  padding-bottom: 60px;
+  background-color: #ededed; }
+  .content-list .container {
+    position: relative;
+    top: -234px;
+    margin-bottom: -234px; }
+    .content-list .container article a {
+      display: table;
+      color: #fff;
+      width: 100%;
+      height: 100%;
+      text-align: center; }
+      .content-list .container article a figure {
+        display: table-cell;
+        vertical-align: middle; }
+        .content-list .container article a figure figcaption {
+          margin-top: 15px; }
+          .content-list .container article a figure figcaption h3 {
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: -.45px;
+            line-height: 26px; }
+            .content-list .container article a figure figcaption h3.eng {
+              font-family: 'Montserrat', sans-serif; }
+          .content-list .container article a figure figcaption small {
+            display: block;
+            font-size: 15px;
+            font-weight: 300; }
+    .content-list .container .section-header {
+      overflow: hidden;
+      width: 732px;
+      padding-left: 468px; }
+      .content-list .container .section-header article {
+        float: left;
+        height: 234px; }
+        .content-list .container .section-header article.lounge {
+          width: 234px;
+          background-color: #004483; }
+        .content-list .container .section-header article.industry {
+          width: 388px;
+          height: 154px;
+          padding: 40px;
+          background-color: #fff; }
+        .content-list .container .section-header article .article-header h3 {
+          font-size: 22px;
+          color: #3a3a3a;
+          font-weight: bold;
+          letter-spacing: -.45px; }
+        .content-list .container .section-header article .article-content {
+          position: relative;
+          padding-top: 10px; }
+          .content-list .container .section-header article .article-content .education-list {
+            width: 100%; }
+            .content-list .container .section-header article .article-content .education-list li {
+              padding: 13px 0;
+              border-bottom: 1px dashed #ccc; }
+              .content-list .container .section-header article .article-content .education-list li > a {
+                display: block;
+                overflow: hidden;
+                font-size: 15px;
+                color: #666;
+                padding: 0 5px;
+                font-weight: 300;
+                text-align: left;
+                letter-spacing: -.35px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                line-height: 30px; }
+                .content-list .container .section-header article .article-content .education-list li > a span {
+                  width: 57px;
+                  height: 30px;
+                  display: inline-block;
+                  font-size: 13px;
+                  margin-right: 10px;
+                  color: #fff;
+                  line-height: 30px;
+                  letter-spacing: -.45px;
+                  text-align: center;
+                  border-radius: 30px; }
+                  .content-list .container .section-header article .article-content .education-list li > a span.recruit {
+                    background-color: #004483; }
+                  .content-list .container .section-header article .article-content .education-list li > a span.finishing {
+                    background-color: #0e3151; }
+            .content-list .container .section-header article .article-content .education-list .slick-arrow {
+              position: absolute;
+              right: 0;
+              outline: none;
+              cursor: pointer;
+              font-size: 20px;
+              line-height: 15px !important;
+              padding: 0;
+              border: 0;
+              color: #918f8f;
+              background: none;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.15s;
+              transition-duration: 0.15s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s; }
+              .content-list .container .section-header article .article-content .education-list .slick-arrow i {
+                line-height: 15px !important;
+                height: 15px !important; }
+                .content-list .container .section-header article .article-content .education-list .slick-arrow i:before {
+                  margin: 0;
+                  line-height: 15px !important; }
+              .content-list .container .section-header article .article-content .education-list .slick-arrow:hover {
+                color: #004483; }
+              .content-list .container .section-header article .article-content .education-list .slick-arrow.slick-prev {
+                top: -43px; }
+              .content-list .container .section-header article .article-content .education-list .slick-arrow.slick-next {
+                top: -26px; }
+    .content-list .container .section-content {
+      width: 100%;
+      text-align: right;
+      overflow: hidden; }
+      .content-list .container .section-content article {
+        float: left; }
+        .content-list .container .section-content article:nth-of-type(1) {
+          width: 468px; }
+        .content-list .container .section-content article:nth-of-type(2) {
+          width: 702px; }
+        .content-list .container .section-content article:nth-of-type(3) {
+          width: 234px; }
+        .content-list .container .section-content article ul {
+          overflow: hidden; }
+          .content-list .container .section-content article ul li {
+            float: left;
+            width: 234px;
+            height: 234px; }
+            .content-list .container .section-content article ul li:nth-of-type(2n + 1) {
+              float: left; }
+            .content-list .container .section-content article ul li.company > a {
+              background-color: #0e3151; }
+            .content-list .container .section-content article ul li.group > a {
+              background-image: url(/assets/images/main/bg_group.jpg);
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: 0 0; }
+              .content-list .container .section-content article ul li.group > a figure figcaption h3 {
+                color: #3a3a3a; }
+            .content-list .container .section-content article ul li.content-bg {
+              background-image: url(/assets/images/main/bg_hylinc.png);
+              background-repeat: no-repeat;
+              background-position: 50% 50%; }
+            .content-list .container .section-content article ul li.introduce > a {
+              background-image: url(/assets/images/main/bg_introduce.jpg);
+              background-position: 0 0;
+              background-size: contain;
+              background-repeat: no-repeat; }
+        .content-list .container .section-content article.notice {
+          overflow: hidden;
+          width: 468px;
+          height: 468px;
+          background-image: url(/assets/images/main/bg_notice.jpg);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: 0 0; }
+          .content-list .container .section-content article.notice .notice-area {
+            float: right;
+            width: 234px;
+            height: 234px;
+            text-align: left;
+            background-color: rgba(14, 49, 81, 0.95); }
+            .content-list .container .section-content article.notice .notice-area .notice-head {
+              padding: 35px 40px 0; }
+              .content-list .container .section-content article.notice .notice-area .notice-head h3 {
+                font-size: 22px;
+                color: #fff;
+                font-weight: bold;
+                letter-spacing: -.45px; }
+            .content-list .container .section-content article.notice .notice-area .notice-body {
+              position: relative;
+              padding: 25px 40px 40px; }
+              .content-list .container .section-content article.notice .notice-area .notice-body .notice-list {
+                overflow: visible;
+                position: relative; }
+                .content-list .container .section-content article.notice .notice-area .notice-body .notice-list li {
+                  height: 101px; }
+                  .content-list .container .section-content article.notice .notice-area .notice-body .notice-list li a {
+                    text-align: left;
+                    height: 101px; }
+                    .content-list .container .section-content article.notice .notice-area .notice-body .notice-list li a b {
+                      font-size: 13px;
+                      color: #4ba9ff;
+                      font-weight: 400;
+                      display: block;
+                      letter-spacing: -.25px; }
+                    .content-list .container .section-content article.notice .notice-area .notice-body .notice-list li a p {
+                      font-size: 15px;
+                      color: #fff;
+                      line-height: 22px;
+                      margin-top: 5px;
+                      letter-spacing: -.5px; }
+                    .content-list .container .section-content article.notice .notice-area .notice-body .notice-list li a .date {
+                      display: block;
+                      margin-top: 15px;
+                      font-size: 12px;
+                      font-family: 'Montserrat', sans-serif;
+                      color: rgba(255, 255, 255, 0.7);
+                      font-weight: 300; }
+                .content-list .container .section-content article.notice .notice-area .notice-body .notice-list .slick-arrow {
+                  position: absolute;
+                  top: -50px;
+                  outline: none;
+                  font-size: 20px;
+                  color: #fff;
+                  cursor: pointer;
+                  padding: 0;
+                  border: 0;
+                  background: none;
+                  -webkit-transition-property: all;
+                  transition-property: all;
+                  -webkit-transition-duration: 0.15s;
+                  transition-duration: 0.15s;
+                  -webkit-transition-timing-function: linear;
+                  transition-timing-function: linear;
+                  -webkit-transition-delay: 0s;
+                  transition-delay: 0s; }
+                  .content-list .container .section-content article.notice .notice-area .notice-body .notice-list .slick-arrow i:before {
+                    margin: 0; }
+                  .content-list .container .section-content article.notice .notice-area .notice-body .notice-list .slick-arrow:hover {
+                    color: #aaa; }
+                  .content-list .container .section-content article.notice .notice-area .notice-body .notice-list .slick-arrow.slick-prev {
+                    right: 20px; }
+                  .content-list .container .section-content article.notice .notice-area .notice-body .notice-list .slick-arrow.slick-next {
+                    right: 0; }
+        .content-list .container .section-content article.news-data > ul > li {
+          display: block;
+          width: 234px;
+          height: 234px; }
+          .content-list .container .section-content article.news-data > ul > li.news-letter > a {
+            background-image: url(/assets/images/main/bg_news.jpg);
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: contain; }
+          .content-list .container .section-content article.news-data > ul > li.data-room > a {
+            background-color: #fff; }
+            .content-list .container .section-content article.news-data > ul > li.data-room > a h3 {
+              color: #3a3a3a; }
+
+/*# sourceMappingURL=main.css.map */

@@ -39,7 +39,7 @@ html {
   height: 100%; }
 
 body {
-  padding-top: 133px; }
+  padding-top: 133px !important; }
 
 .btn {
   cursor: pointer;
@@ -605,6 +605,9 @@ a {
             display: table;
             width: 100%; }
             #visual .slogan .container .business-list > ul > li > dl dt {
+              position: relative;
+              left: -30px;
+              opacity: 0;
               display: table-cell;
               width: 56px;
               vertical-align: middle; }
@@ -617,13 +620,99 @@ a {
               padding-left: 15px;
               vertical-align: middle;
               font-family: 'Montserrat', sans-serif; }
+              #visual .slogan .container .business-list > ul > li > dl dd p {
+                position: relative;
+                right: -30px;
+                opacity: 0; }
               #visual .slogan .container .business-list > ul > li > dl dd:before {
                 position: absolute;
-                top: 7px;
+                opacity: 0;
+                bottom: -20px;
                 left: -2px;
                 font-size: 26px;
                 font-family: "fontello";
                 content: "\E806"; }
+          #visual .slogan .container .business-list > ul > li.university > dl dt {
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 5.5s;
+            transition-delay: 5.5s; }
+          #visual .slogan .container .business-list > ul > li.university > dl dd p {
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 5.8s;
+            transition-delay: 5.8s; }
+          #visual .slogan .container .business-list > ul > li.university > dl dd:before {
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 4.5s;
+            transition-delay: 4.5s; }
+          #visual .slogan .container .business-list > ul > li.student > dl dt {
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 6.1s;
+            transition-delay: 6.1s; }
+          #visual .slogan .container .business-list > ul > li.student > dl dd p {
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 6.1s;
+            transition-delay: 6.1s; }
+          #visual .slogan .container .business-list > ul > li.student > dl dd:before {
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 4.8s;
+            transition-delay: 4.8s; }
+          #visual .slogan .container .business-list > ul > li.corporation > dl dt {
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 6.4s;
+            transition-delay: 6.4s; }
+          #visual .slogan .container .business-list > ul > li.corporation > dl dd p {
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 6.4s;
+            transition-delay: 6.4s; }
+          #visual .slogan .container .business-list > ul > li.corporation > dl dd:before {
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 5.1s;
+            transition-delay: 5.1s; }
     #visual .slogan.action {
       opacity: 1; }
       #visual .slogan.action .container > i {
@@ -652,5 +741,14 @@ a {
           transform: rotate(360deg); }
       #visual .slogan.action .container .business-list > ul:before {
         height: 100%; }
+      #visual .slogan.action .container .business-list > ul li dl dt {
+        opacity: 1;
+        left: 0; }
+      #visual .slogan.action .container .business-list > ul li dl dd p {
+        opacity: 1;
+        right: 0; }
+      #visual .slogan.action .container .business-list > ul li dl dd:before {
+        bottom: 7px;
+        opacity: 1; }
 
 /*# sourceMappingURL=default.css.map */

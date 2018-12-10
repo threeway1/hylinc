@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    padding-top: 133px;
+    padding-top: 133px !important;
 }
 
 .btn {
@@ -575,6 +575,9 @@ a {
                             display: table;
                             width: 100%;
                             dt {
+                                position: relative;
+                                left: -30px;
+                                opacity: 0;
                                 display: table-cell;
                                 width: 56px;
                                 vertical-align: middle;
@@ -588,13 +591,64 @@ a {
                                 padding-left: 15px;
                                 vertical-align: middle;
                                 @include msr();
+                                p {
+                                    position: relative;
+                                    right: -30px;
+                                    opacity: 0;
+                                }
                                 &:before {
                                     position: absolute;
-                                    top: 7px;
+                                    opacity: 0;
+                                    bottom: -20px;
                                     left: -2px;
                                     font-size: 26px;
                                     font-family: "fontello";
                                     content: "\E806";
+                                }
+                            }
+                        }
+                        &.university {
+                            > dl {
+                                dt {
+                                    @include transition($duration: .6s, $delay: 5.5s);
+                                }
+                                dd {
+                                    p {
+                                        @include transition($duration: .6s, $delay: 5.8s);
+                                    }
+                                    &:before {
+                                        @include transition($duration: .6s, $delay: 4.5s);
+                                    }
+                                }
+                            }
+                        }
+                        &.student {
+                            > dl {
+                                dt {
+                                    @include transition($duration: .6s, $delay: 6.1s);
+                                }
+                                dd {
+                                    p {
+                                        @include transition($duration: .6s, $delay: 6.1s);
+                                    }
+                                    &:before {
+                                        @include transition($duration: .6s, $delay: 4.8s);
+                                    }
+                                }
+                            }
+                        }
+                        &.corporation {
+                            > dl {
+                                dt {
+                                    @include transition($duration: .6s, $delay: 6.4s);
+                                }
+                                dd {
+                                    p {
+                                        @include transition($duration: .6s, $delay: 6.4s);
+                                    }
+                                    &:before {
+                                        @include transition($duration: .6s, $delay: 5.1s);
+                                    }
                                 }
                             }
                         }
@@ -647,6 +701,24 @@ a {
                     > ul {
                         &:before {
                             height: 100%;
+                        }
+                        li {
+                            dl {
+                                dt {
+                                    opacity: 1;
+                                    left: 0;
+                                }
+                                dd {
+                                    p {
+                                        opacity: 1;
+                                        right: 0;
+                                    }
+                                    &:before {
+                                        bottom: 7px;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
