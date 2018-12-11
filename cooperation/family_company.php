@@ -20,7 +20,7 @@
             <div class="section-content">
                 <nav class="tab-menu">
                     <ul>
-                        <li class="active"><a href="/cooperation/group.php">소개 및 가입 안내</a></li>
+                        <li class="active"><a href="/cooperation/family_company.php">소개 및 가입 안내</a></li>
                         <li><a href="/cooperation/application.php">가입신청</a></li>
                     </ul>
                 </nav>
