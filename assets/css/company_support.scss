@@ -1,0 +1,221 @@
+@import 'common';
+
+.company-support {
+    .page-header {
+        background-image: url(/assets/images/company_support/bg_page_header.jpg);
+    }
+}
+
+// development
+.development, .all-set {
+    .section-content {
+        .tab-menu {
+            margin-bottom: 60px;
+        }
+        article {
+            .article-header {
+                > p {
+                    font-size: 17px;
+                    color: #666;
+                    line-height: 30px;
+                    letter-spacing: -.25px;
+                }
+            }
+            & ~ article {
+                margin-top: 80px;
+            }
+            &.subject-application {
+                .article-content {
+                    > dl {
+                        margin-bottom: 50px;
+                        dt {
+                            font-size: 17px;
+                            color: #333;
+                            line-height: 30px;
+                            font-weight: 400;
+                        }
+                        dd {
+                            font-size: 15px;
+                            color: #666;
+                            font-weight: 300;
+                            line-height: 30px;
+                            &:before {
+                                content: "※ ";
+                            }
+                            i {
+                                font-style: normal;
+                                color: #2078d9;
+                            }
+                        }
+                    }
+                }
+            }
+            &.period {
+                .article-content {
+                    .decimal-list {
+                        > li {
+                            > dl {
+                                overflow: hidden;
+                                > dt {
+                                    width: 90px;
+                                    color: #333;
+                                    font-weight: 500;
+                                    font-size: 15px;
+                                    float: left;
+                                }
+                                > dd {
+                                    font-size: 14px;
+                                    color: #666;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.procedure {
+                .article-content {
+                    > ol {
+                        overflow: hidden;
+                        > li {
+                            float: left;
+                            width: 16.666%;
+                            text-align: center;
+                            .icon-item {
+                                width: 170px;
+                                display: block;
+                                margin: 0 auto;
+                                padding:  31px 0;
+                                border-radius: 50%;
+                                img {
+                                    display: block;
+                                    margin: 0 auto;
+                                }
+                                > p {
+                                    font-size: 12px;
+                                    color: #fff;
+                                    font-weight: bold;
+                                    margin-top: 15px;
+                                    letter-spacing: -.25px;
+                                    @include msr();
+                                }
+                            }
+                            > .details {
+                                font-size: 17px;
+                                color: #333;
+                                font-weight: 400;
+                                line-height: 26px;
+                                margin-top: 20px;
+                                small {
+                                    font-size: 13px;
+                                    color: #666;
+                                    display: block;
+                                    line-height: 20px;
+                                }
+                            }
+                            &:nth-of-type(odd) {
+                                .icon-item {
+                                    background-color: #004483;
+                                }
+                            }
+                            &:nth-of-type(even) {
+                                .icon-item {
+                                    background-color: #7fa1c1;
+                                }
+                            }
+                        }
+                    }
+                    .attention {
+                        font-size: 15px;
+                        color: #666;
+                        font-weight: 300;
+                        margin-top: 40px;
+                        &:before {
+                            content: "※ ";
+                        }
+                    }
+                }
+            }
+            &.inquiry {
+                .article-content {
+                    .table-wrap {
+                        .table {
+                            tbody {
+                                td {
+                                    > ul {
+                                        > li {
+                                            display: inline-block;
+                                            margin-right: 70px;
+                                            a {
+                                                display: inline-block;
+                                                color: inherit;
+                                            }
+                                            &:last-child {
+                                                margin-right: 0;
+                                            }
+                                            &:before {
+                                                font-size: 13px;
+                                                color: #999;
+                                                margin-right: 10px;
+                                                font-family: "fontello";
+                                            }
+                                            &.usr {
+                                                &:before {
+                                                    content: "\e809";
+                                                }
+                                            }
+                                            &.contact {
+                                                @include msr();
+                                                font-weight: 500;
+                                                &:before {
+                                                    content: "\e80a";
+                                                }
+                                            }
+                                            &.mail {
+                                                @include msr();
+                                                font-weight: 500;
+                                                &:before {
+                                                    content: "\e80b";
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.business {
+                .article-content {
+                    .table-wrap {
+                        .table {
+                            tbody {
+                                tr {
+                                    td {
+                                        padding: 20px 30px;
+                                        text-align: left;
+                                        > ul {
+                                            > li {
+                                                font-size: 15px;
+                                                color: #666;
+                                                font-weight: 400;
+                                                line-height: 26px;
+                                                &:before {
+                                                    color: #2078d9;
+                                                    margin-right: 10px;
+                                                    content: "\e806";
+                                                    font-family: "fontello";
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

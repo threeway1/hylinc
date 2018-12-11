@@ -6,52 +6,52 @@
                 <li>
                     <h3>사업단 소개</h3>
                     <ul>
-                        <li><a href="#">인사말</a></li>
-                        <li><a href="#">LINC+사업이란?</a></li>
-                        <li><a href="#">조직도</a></li>
-                        <li><a href="#">찾아오시는길</a></li>
+                        <li><a href="introduction/greeting.php">인사말</a></li>
+                        <li><a href="introduction/linc.php">LINC+사업이란?</a></li>
+                        <li><a href="introduction/group.php">조직도</a></li>
+                        <li><a href="introduction/location.php">찾아오시는길</a></li>
                     </ul>
                 </li>
                 <li>
                     <h3>산학협력</h3>
                     <ul>
-                        <li><a href="#">가족회사</a></li>
-                        <li><a href="#">체인지메이커스그룹(CMG)</a></li>
-                        <li><a href="#">산학협력 협의체</a></li>
+                        <li><a href="/cooperation/family_company.php">가족회사</a></li>
+                        <li><a href="/cooperation/cmg_introduce.php">체인지메이커스그룹 (CMG)</a></li>
+                        <li><a href="/cooperation/consultative_introduce.php">산학협력 협의체</a></li>
+                        <li><a href="/cooperation/education.php">산업체 재직자 교육</a></li>
                     </ul>
                 </li>
                 <li>
                     <h3>학생지원</h3>
                     <ul>
-                        <li><a href="#">LINC+프로그램</a></li>
-                        <li><a href="#">산학협력교육센터/<br>사회혁신센터</a></li>
-                        <li><a href="#">현장실습지원센터</a></li>
-                        <li><a href="#">창업지원단</a></li>
+                        <li><a href="/student_support/program.php">LINC+프로그램</a></li>
+                        <li><a href="/student_support/center.php">산학협력교육센터</a></li>
+                        <li><a href="/student_support/placement.php">현장실습지원센터</a></li>
+                        <li><a href="/student_support/foundation.php">창업지원단</a></li>
                     </ul>
                 </li>
                 <li>
                     <h3>기업지원</h3>
                     <ul>
-                        <li><a href="#">산학공동기술개발과제</a></li>
-                        <li><a href="#">ALL-SET</a></li>
-                        <li><a href="#">기술경영지도</a></li>
+                        <li><a href="/company_support/development.php">산학공동기술개발과제</a></li>
+                        <li><a href="/company_support/all_set.php">ALL-SET</a></li>
+                        <li><a href="/company_support/management.php">기술경영지도</a></li>
                     </ul>
                 </li>
                 <li>
                     <h3>Hero's Lounge</h3>
                     <ul>
-                        <li><a href="#">Hero's Lounge<br>(중소기업 경쟁력 진단)</a></li>
+                        <li><a href="/lounge/lounge.php">Hero's Lounge<br>(중소기업 경쟁력 진단)</a></li>
                     </ul>
                 </li>
                 <li>
                     <h3>공지사항/자료실</h3>
                     <ul>
-                        <li><a href="#">산업체 재직자 교육</a></li>
-                        <li><a href="#">공지사항</a></li>
-                        <li><a href="#">자료실</a></li>
-                        <li><a href="#">갤러리</a></li>
-                        <li><a href="#">뉴스레터</a></li>
-                        <li><a href="#">Q&amp;A</a></li>
+                        <li><a href="/hylinc_news/notice.php">공지사항</a></li>
+                        <li><a href="/hylinc_news/data_list.php">자료실</a></li>
+                        <li><a href="/hylinc_news/gallery.php">갤러리</a></li>
+                        <li><a href="/hylinc_news/news_letter.php">뉴스레터</a></li>
+                        <li><a href="/hylinc_news/qna.php">Q&amp;A</a></li>
                     </ul>
                 </li>
             </ul>
@@ -62,8 +62,8 @@
             <div class="information">
                 <div class="terms">
                     <ul>
-                        <li class="privacy"><a href="#">개인정보취급방침</a></li>
-                        <li><a href="#">이메일무단수집금지</a></li>
+                        <li class="privacy"><a href="/other/privacy.php">개인정보취급방침</a></li>
+                        <li><a href="/other/mail_refusal.php">이메일무단수집금지</a></li>
                     </ul>
                 </div>
                 <ul class="contact">
@@ -97,7 +97,7 @@
             </div>
             <div class="form-group">
                 <select class="form-control" onchange="if(this.value) window.open(this.value);">
-                    <option>사회복지법인SRC</option>
+                    <option>관련사이트</option>
                     <option value="#">site1</option>
                     <option value="#">site2</option>
                 </select>
@@ -105,3 +105,5 @@
         </div>
     </div>
 </footer>
+</body>
+</html>
